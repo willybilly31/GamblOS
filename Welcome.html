@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GamblOS Welcome</title>
+
+<style>
+  html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    overflow: hidden;
+  }
+
+  body {
+    background: #0b0f0c;
+    color: #adffb8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .welcome {
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(52px, 10vw, 90px);
+    letter-spacing: 2px;
+    text-shadow: 0 0 20px rgba(173, 255, 184, 0.25);
+  }
+
+  p {
+    color: #d7e8da;
+    font-size: 18px;
+    margin: 12px 0 35px;
+  }
+
+  button {
+    padding: 12px 28px;
+    border: 1px solid #adffb8;
+    border-radius: 8px;
+    background: #162019;
+    color: #adffb8;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #213126;
+  }
+
+  .hint {
+    margin-top: 16px;
+    color: #849789;
+    font-size: 12px;
+  }
+</style>
+</head>
+
+<body>
+
+  <div class="welcome">
+    <h1>GamblOS</h1>
+    <p>Welcome to your web desktop.</p>
+
+    <button onclick="startOS()">Start GamblOS</button>
+
+    <div class="hint">Click to enter</div>
+  </div>
+
+<script>
+  function startOS() {
+    window.location.href = "index.html";
+  }
+</script>
+
+</body>
+</html>
