@@ -1,42 +1,26 @@
 # GamblOS
 
-GamblOS is my first WebOS project, created for Hack Club's Stardance.
+GamblOS is my first WebOS project, made for stardance
 
-It is a browser-based operating system designed to look and feel like a desktop environment. GamblOS uses a green and black theme and includes different apps, games, and features that can be opened directly from the desktop.
+A webOS is made to replicate desktop operating systems, mine includes the following features
 
 ## Features
 
 GamblOS includes:
 
-* **Games:** Multiple games that can be played directly in GamblOS.
-* **File Explorer:** A simple file explorer for browsing files.
-* **Music Player:** A built-in music player for listening to music.
-* **Notepad:** A basic app for writing and editing text.
-* **Clock:** Displays the current time.
-* **Desktop:** A simple desktop for accessing apps and features.
-* **Green and Black Theme:** A green interface with black elements throughout the system.
-
-## Why I Made This
-
-GamblOS is my first attempt at creating a WebOS from scratch. I wanted to learn more about web development while making something that feels like a small operating system.
-
-I made this project for Stardance as a way to experiment with HTML, CSS, and JavaScript and turn what I have learned into an actual project.
+* **Games:** Slot Machine & Coin Flip
+* **File Explorer:** A very barebones file explorer to add a touch of realism
+* **Music Player:** Simple Lo-Fi Bears
+* **Notepad:** To write whatever
+* **Clock:** So you can never lose track of time
+* **Desktop:** Because every OS has one
+* **Green and Black Theme**  
 
 ## Built With
 
 GamblOS is built using:
 
-* **HTML** for the structure and layout
-* **CSS** for the styling and desktop interface
-* **JavaScript** for the apps, games, and interactive features
-
-## What I Learned
-
-While creating GamblOS, I learned more about how HTML, CSS, and JavaScript can be used to create interactive websites and desktop interfaces.
-
-This project also gave me experience with designing interfaces, adding new features, fixing bugs, and building a larger project from scratch.
-
-## Status
-
-GamblOS is a completed project created for Stardance.
+* **HTML**
+* **CSS** 
+* **JavaScript** 
 
